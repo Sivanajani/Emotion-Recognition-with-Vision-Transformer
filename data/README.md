@@ -20,6 +20,17 @@ Below is a sample image for each emotion category (taken directly from the train
 
 ---
 
+## ⚖️ Data Imbalance
+
+The emotion class `disgusted` is **significantly underrepresented** in the original dataset.
+
+This was addressed in the notebook [`BilderDigustVermehrfachungundPlot.ipynb`](../notebook/BilderDigustVermehrfachungundPlot.ipynb) by applying targeted **data augmentation**:
+
+- Rotation  
+- Horizontal Flips  
+
+---
+
 ## 🔗 Dataset Source
 
 You can view and download the original data here:  
