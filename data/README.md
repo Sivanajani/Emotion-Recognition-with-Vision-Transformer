@@ -10,7 +10,6 @@ The image data used in this project comes from the publicly available FER2013 da
 - 😢 sad  
 - 😲 surprised  
 
----
 
 ## 🖼️ Sample Images
 
@@ -18,18 +17,14 @@ Below is a sample image for each emotion category (taken directly from the train
 
 <img src="../images/example.png" alt="Sample Emotion Images" width="600"/>
 
----
 
 ## ⚖️ Data Imbalance
 
-The emotion class `disgusted` is **significantly underrepresented** in the original dataset.
-
-This was addressed in the notebook [`BilderDigustVermehrfachungundPlot.ipynb`](../notebook/BilderDigustVermehrfachungundPlot.ipynb) by applying targeted **data augmentation**:
+The *disgusted* class was underrepresented and required augmentation. This was addressed in the notebook [`BilderDigustVermehrfachungundPlot.ipynb`](../notebook/BilderDigustVermehrfachungundPlot.ipynb) by applying targeted data augmentation:
 
 - Rotation  
 - Horizontal Flips  
 
----
 
 ## 🔗 Dataset Source
 
