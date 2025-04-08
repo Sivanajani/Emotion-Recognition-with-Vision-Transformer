@@ -50,7 +50,7 @@ The dataset is split into training and test sets. The *disgusted* class was unde
 
 This matrix shows the model’s performance on the test set (normalized):
 
-<img src="images/matrix.png" alt="Confusion Matrix" width="450"/>
+<img src="./images/Matrix.png" alt="Confusion Matrix" width="450"/>
 
 ---
 
@@ -58,10 +58,17 @@ This matrix shows the model’s performance on the test set (normalized):
 
 The final poster summarizes all three models (CNN, Transfer Learning & ViT), their performance, challenges, and findings:
 
-<img src="images/plakat.png" alt="Project Poster" width="700"/>
+<img src="./images/Plakat.jpg" alt="Project Poster" width="700"/>
 
 ---
 
 ## 📄 License
 
 This project was created as part of a university project at FHNW and is intended for demonstration and educational purposes only.
+
+---
+
+### 📚 Quelle des Datensatzes
+
+You can view and download the original data here:  
+➡️ [Kaggle – Facial Emotion Recognition (FER2013)](https://www.kaggle.com/datasets/ananthu017/emotion-detection-fer/data)
